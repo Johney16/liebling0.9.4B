@@ -1,0 +1,22 @@
+
+.m-header-social {
+  position: relative;
+  left: $mobile-space;
+  top:200px;
+  bottom: 40px;
+  z-index: 6;
+
+    @include respond-to('medium') 
+    {
+    position: relative;
+    margin-right: 20px;
+    }
+
+    a {
+    margin-left: 20px;
+    font-size: 1.125rem;
+    &:first-child {
+    margin-left: 0;
+                  }
+}
+}
