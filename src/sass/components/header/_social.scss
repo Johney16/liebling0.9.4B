@@ -3,7 +3,7 @@
   position: relative;
   bottom: 40px;
   left: $mobile-space;
-  z-index: 2;
+  z-index: 6;
 
     @include respond-to('medium') 
     {
