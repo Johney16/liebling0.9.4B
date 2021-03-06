@@ -3,7 +3,7 @@
   position: relative;
   top: 40px;
   left: $mobile-space;
-  z-index: 6;
+  z-index: 2;
 
     @include respond-to('medium') 
     {
@@ -13,7 +13,7 @@
   
     a {
     margin-left: 20px;
-    font-size: 1.125rem;
+    font-size: 4.125rem;
     &:first-child {
     margin-left: 0;
 }
