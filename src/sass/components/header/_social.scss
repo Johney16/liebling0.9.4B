@@ -1,13 +1,13 @@
 
 .m-header-social {
-  position: static;
-  bottom: 40px;
+  position: relative;
+  top: 40px;
   left: $mobile-space;
   z-index: 6;
 
     @include respond-to('medium') 
     {
-    position: static;
+    position: relative;
     margin-right: 20px;
     }
 
