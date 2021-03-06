@@ -128,7 +128,13 @@ This header template is shared across all the pages.
                 <span class="icon-sunny sun" aria-hidden="true"></span>
               </div>
               <div class="m-nav__right" >
-<nav class="m-header-social">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="m-header-social">
 {{#if @site.twitter}}
 <a href="{{twitter_url @site.twitter}}" target="_blank" rel="noopener" aria-label="Twitter">
 <span class="icon-twitter" aria-hidden="true"></span>
@@ -155,11 +161,6 @@ This header template is shared across all the pages.
 <a href="{{@site.spotify}}/youtube" aria-label="spotify">
 <span class="icon-spotify" aria-hidden="true"; ></span>
 </a> 
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 
   {{#if @site.secondary_navigation}}
