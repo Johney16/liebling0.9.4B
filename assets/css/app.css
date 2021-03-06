@@ -3,7 +3,7 @@
 .fixed-wrapper
 {
     width: 220px;
-    position: absolute;
+    position: static;
     top: 0;
     left: -240px; /* Move this out to the left of the site body, leaving a 20px gutter */
 .m-header-social{position:relative;top:450px;left:1200px;bottom:40px;z-index:2}@media only screen and (min-width:48rem){.m-header-social{position:relative;top:450px;left:1200px;margin-right:20px}}.m-header-social a{margin-left:20px;font-size:1.125rem}.m-header-social a:first-child{margin-left:0}
