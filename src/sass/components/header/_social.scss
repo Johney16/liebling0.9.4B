@@ -1,19 +1,14 @@
 
 .m-header-social {
-  
-html, body {
-  margin: 0;
-  height: 100%;
-  overflow: hidden
 
-  position: relative;
+  position: static;
   top: 40px;
   left: $mobile-space;
   z-index: 2;
  
     @include respond-to('medium') 
     {
-    position: relative;
+    position: static;
     margin-right: 20px;
     }
   
@@ -22,7 +17,6 @@ html, body {
     font-size: 4.125rem;
     &:first-child {
     margin-left: 0;
-}
 }
 }
 }
