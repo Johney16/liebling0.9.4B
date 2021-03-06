@@ -6,11 +6,7 @@
   left: $mobile-space;
   z-index: 2;
  
-    @include respond-to('medium') 
-    {
-    position: static;
-    margin-right: 20px;
-    }
+    
   
     a {
     margin-left: 20px;
