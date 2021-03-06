@@ -1,10 +1,15 @@
 
 .m-header-social {
+  
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden
+
   position: relative;
   top: 40px;
   left: $mobile-space;
   z-index: 2;
-  transform: scale(2.5) 
  
     @include respond-to('medium') 
     {
@@ -17,6 +22,7 @@
     font-size: 4.125rem;
     &:first-child {
     margin-left: 0;
+}
 }
 }
 }
