@@ -135,20 +135,12 @@ This header template is shared across all the pages.
       </div>
     </div>
   </div>
+ 
   
-   
-   
-   body{background: #ccc;}
-.wrapper {
-margin: 0 auto;
-height: 1400px;
-width: 650px;
-    background: green;
-<div class="wrapper">
-    <div class="fixed-wrapper">
-        <div class="fixed">
-   
-   
+  div {
+  overflow-x: hidden;
+  overflow-y: hidden;
+
   
    <nav class="m-header-social">
 {{#if @site.twitter}}
@@ -182,11 +174,7 @@ width: 650px;
       {{navigation type="secondary"}}
     </div>
     
-       </div>
-    </div>
-</div>
-    
- }
+}
  
   {{/if}}
 </header>
