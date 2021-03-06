@@ -2,7 +2,6 @@
 .m-header-social {
   position: static;
   left: $mobile-space;
-  top: 400px;
   z-index: 6;
 
     @include respond-to('medium') 
