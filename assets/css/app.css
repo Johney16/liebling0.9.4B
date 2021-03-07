@@ -2,7 +2,7 @@
 
 
 .m-header-social{position:static;top:350px;left:1050px;bottom:40px;z-index:2}@media only screen and (min-width:48rem)
-{.m-header-social{position:fixed;top:350px;left:1050px;margin-right:20px;.m-header-social{position:fixed  
+{.m-header-social{position:static;top:350px;left:1050px;margin-right:20px;.m-header-social{position:fixed  
   }}
 }
 .m-header-social a{margin-left:20px;font-size:2.125rem}
