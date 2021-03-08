@@ -20,6 +20,7 @@ This header template is shared across all the pages.
       <span class="icon-search" aria-hidden="true"></span>
     </button>
   </div>
+
   <div class="m-menu js-menu">
     <button class="m-icon-button outlined as-close-menu js-close-menu" aria-label="{{t "Close menu"}}">
       <span class="icon-close"></span>
@@ -27,9 +28,6 @@ This header template is shared across all the pages.
     <div class="m-menu__main" data-aos="fade-down">
       <div class="l-wrapper">
         <div class="m-nav js-main-nav">
-        
-              
-        
           <nav class="m-nav__left js-main-nav-left" role="navigation" aria-label="{{t "Main menu"}}">
             <ul>
               {{#if @site.logo}}
@@ -114,12 +112,8 @@ This header template is shared across all the pages.
                 </div>
               </li>
             </ul>
-            
-            
-            
-            
           </nav>
-         <div class="m-nav__right">
+          <div class="m-nav__right">
             <button class="m-icon-button in-menu-main js-open-search" aria-label="{{t "Open search"}}">
               <span class="icon-search" aria-hidden="true"></span>
             </button>
@@ -132,48 +126,16 @@ This header template is shared across all the pages.
                 <span class="icon-moon moon" aria-hidden="true"></span>
                 <span class="icon-sunny sun" aria-hidden="true"></span>
               </div>
-                
-              
-              <div class="m-nav__right" >
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-   <nav class="m-header-social">
-{{#if @site.twitter}}
-<a href="{{twitter_url @site.twitter}}" target="_blank" rel="noopener" aria-label="Twitter">
-<span class="icon-twitter"aria-hidden="true"></span>
-</a>
-{{/if}}
-<a href="{{@site.instagram}}/instagram" aria-label="instagram">
-<span class="icon-instagram" aria-hidden="true"></span>
-</a>
-<a href="{{@site.twitch}}/twitch" aria-label="twitch">
-<span class="icon-twitch" aria-hidden="true"; ></span>
-</a>
-<a href="{{@site.youtube}}/youtube" aria-label="youtube">
-<span class="icon-youtube" aria-hidden="true"; ></span>
-</a>
-<a href="{{@site.discord}}/discord" aria-label="discord">
-<span class="icon-discord" aria-hidden="true"; ></span>
-</a>
-<a href="{{@site.soundcloud}}/youtube" aria-label="soundcloud">
-<span class="icon-soundcloud" aria-hidden="true"; ></span>
-</a>
-<a href="{{@site.tiktok}}/youtube" aria-label="tiktok">
-<span class="icon-tiktok" aria-hidden="true"; ></span>
-</a>
-<a href="{{@site.spotify}}/youtube" aria-label="spotify">
-<span class="icon-spotify" aria-hidden="true"; ></span>
-</a> 
+
   {{#if @site.secondary_navigation}}
     <div id="secondary-navigation-template" style="display: none;">
       {{navigation type="secondary"}}
     </div>
-
-  
- 
   {{/if}}
 </header>
