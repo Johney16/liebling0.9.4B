@@ -19,12 +19,10 @@ for it, and apply those styles to the <header> tag.
       />
       
 <nav id="socials" class="m-header-social">
-</a>
-{{/if}}
-<a href="https://twitter.com/AmbientArtstyls" aria-label="twitter">
-<span class="icon-twitter" aria-hidden="true"></span>
-</a>
-{{/if}}
+                {{#if @site.twitter}}
+                <a href="https://twitter.com/AmbientArtstyls" target="_blank" rel="noopener" aria-label="Twitter">
+                    <span class="icon-twitter" aria-hidden="true"></span>
+                </a>
 <a href="https://www.instagram.com/ambientartstyles/" aria-label="instagram">
 <span class="icon-instagram" aria-hidden="true"></span>
 </a>
