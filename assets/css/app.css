@@ -20,8 +20,8 @@
 
 <style>
     * {
-        box-sizing: border-box;
-	    width: 950px;
+        box-sizing: content-box;
+	    width: 1000px;
     }
     
     /* Create two equal columns that floats next to each other */
