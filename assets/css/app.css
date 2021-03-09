@@ -20,7 +20,8 @@
 
 <style>
     * {
-        box-sizing: content-box;
+        box-sizing: border-box;
+	    float: initial;
 	    width: 100%;
 	    padding: 50px;
     }
