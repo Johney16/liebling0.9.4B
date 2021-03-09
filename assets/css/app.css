@@ -21,7 +21,8 @@
 <style>
     * {
         box-sizing: content-box;
-	    width: 180%;
+	    width: 100%;
+	    padding: 50px;
     }
     
     /* Create two equal columns that floats next to each other */
