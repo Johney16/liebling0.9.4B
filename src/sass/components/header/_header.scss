@@ -34,7 +34,7 @@
   }
 
   &.submenu-is-active {
-    background-color: var(--background-color);
+    background-color: transparent;
 
     .m-header__shadow {
       display: none;
